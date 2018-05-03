@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 15px;
+}
+body{
+    height: 100%;
+    padding-left: 20px;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+    background-size: cover;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: url("./assets/images/tic-tac-toe.jpg");
+}
+ 
+
+
+h1{
+    background-color: teal;
+    float: left;
+    padding-top: 1px;
+    color: white;
+
+    
+}
+
+#contact-form{
+    padding-top: 0%;
+   
+   
+    
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    float: left;
+   
+}
+h2{
+    padding-top: 10%;
+    color: teal;
+    padding-bottom: -10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.div{
+    position: relative;
+    border: 10px solid black;
+    padding: 10%;
+
+
+}
+#container{
+    min-height: 960px;
+    
+
+}
+p{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    
+}
+a{
+    float: right;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    background-color: white;
+    padding-top: 1%;
+    color: #777777;
+    text-decoration: none;
+   
+    
+}
+
+#footer{
+    text-align: center;
+    background-color: #666666;
+    position: relative;
+    height: 40px;
+    margin-top: -100px;
+    clear: both;
+    
+    
+    
+}
+#main-bio{
+    width: 960px;
+
+    
+}
+#bio-image{
+    width: 100px;
+    height: 100px;;
+}
+#form{
+    width: 800px;
+    height: 600px;
+    background-color: silver;
+}
+textarea{
+    height: 200px;
+    width: 500px;
+}
+button{
+    background-color: teal;
+   
+    
+}
+p:hover{
+    background-color: slategray;
+}
+a:hover{
+    background-color: rebeccapurple;
+    
+}
+a:active{
+    color: firebrick;
+    text-decoration-style: none;
+}
+
+button:hover{
+    background-color: goldenrod;
+}
+.gallery{
+    margin: 20px 80px;
+    padding: 5px;
+    width: 60%;
+    
+}
+@media screen and (max-width: 980px){
+    body{
+        background-color: red;
+    }
+    .wrapper{
+        width: 100%;
+        padding: 40px;
+    }
+    #main-bio{
+        width: 600px;
+    }
+    #form{
+        width: 720px;
+        background-color: #777777;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+    background-color: blueviolet;
+    }
+    .wrapper{
+        width: 768px;
+        padding: 40px;
+    }
+    #main-bio{
+        width: 400px;
+    }
+    #form{
+        width: 600px;
+        background-color: blueviolet;
+    }
+}
+@media screen and (max-width: 640px){
+    body{
+        background-color: aqua;
+    }
+    .wrapper{
+        width: 640px;
+        padding: 40px;
+    }
+    #main-bio{
+        width: 200px;
+    }
+    #form{
+        width: 400px;
+        background-color: #666666;
+    }
+
+}
